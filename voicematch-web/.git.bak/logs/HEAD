@@ -1,0 +1,68 @@
+0000000000000000000000000000000000000000 5c9a99ac788fa91d098467918cfe4c95ea8b2d7f Ilia Zlobin <iliazlobin91@gmail.com> 1678152650 -0500	commit (initial): Initial commit
+5c9a99ac788fa91d098467918cfe4c95ea8b2d7f 9961d6efc7da3694974574b52f7cbb78614fe4a2 Ilia Zlobin <iliazlobin91@gmail.com> 1678351301 -0500	commit: control panel: reactive play/stop
+9961d6efc7da3694974574b52f7cbb78614fe4a2 96877d13a9c7d50b149e3fb200203381ddbd8a84 Ilia Zlobin <iliazlobin91@gmail.com> 1678413343 -0500	commit: draggable plot layout
+96877d13a9c7d50b149e3fb200203381ddbd8a84 96877d13a9c7d50b149e3fb200203381ddbd8a84 Ilia Zlobin <iliazlobin91@gmail.com> 1678416964 -0500	checkout: moving from master to inference-client
+96877d13a9c7d50b149e3fb200203381ddbd8a84 8a7d682b7cd8db9de723e5069876b9e70785c7a9 Ilia Zlobin <iliazlobin91@gmail.com> 1678416989 -0500	commit: Create service file
+8a7d682b7cd8db9de723e5069876b9e70785c7a9 3781132ea02add2727fc450d5d4a0b8ce1330221 Ilia Zlobin <iliazlobin91@gmail.com> 1678433244 -0500	commit: properly functioning audio player through web audio api
+3781132ea02add2727fc450d5d4a0b8ce1330221 3781132ea02add2727fc450d5d4a0b8ce1330221 Ilia Zlobin <iliazlobin91@gmail.com> 1678434964 -0500	checkout: moving from inference-client to audio-context-suspended
+3781132ea02add2727fc450d5d4a0b8ce1330221 10099fec15cdf637da4635fd2111e19bdceab9e9 Ilia Zlobin <iliazlobin91@gmail.com> 1678434973 -0500	commit: impl through suspended, issues
+10099fec15cdf637da4635fd2111e19bdceab9e9 3781132ea02add2727fc450d5d4a0b8ce1330221 Ilia Zlobin <iliazlobin91@gmail.com> 1678434977 -0500	checkout: moving from audio-context-suspended to inference-client
+3781132ea02add2727fc450d5d4a0b8ce1330221 648720a07c722e160e3e5554dc34f02a07d8965c Ilia Zlobin <iliazlobin91@gmail.com> 1678435818 -0500	commit: clean up audio player control
+648720a07c722e160e3e5554dc34f02a07d8965c 5197114d3d5031f87edfb595ec5d7b38f5438620 Ilia Zlobin <iliazlobin91@gmail.com> 1678510072 -0500	commit: request words predictions and plot it out
+5197114d3d5031f87edfb595ec5d7b38f5438620 e35d20f8ee1f69178db78689956b1b532790f90f Ilia Zlobin <iliazlobin91@gmail.com> 1678648130 -0400	commit: display phonemes on a chart leveled by pitch
+e35d20f8ee1f69178db78689956b1b532790f90f b714a3baf220aed272fe4a90b5d216be792d242f Ilia Zlobin <iliazlobin91@gmail.com> 1678731525 -0400	commit: sync navigation
+b714a3baf220aed272fe4a90b5d216be792d242f 96877d13a9c7d50b149e3fb200203381ddbd8a84 Ilia Zlobin <iliazlobin91@gmail.com> 1678731535 -0400	checkout: moving from inference-client to master
+96877d13a9c7d50b149e3fb200203381ddbd8a84 b714a3baf220aed272fe4a90b5d216be792d242f Ilia Zlobin <iliazlobin91@gmail.com> 1678731538 -0400	merge inference-client: Fast-forward
+b714a3baf220aed272fe4a90b5d216be792d242f d687392ef909d468028857374872c17e771e8a84 Ilia Zlobin <iliazlobin91@gmail.com> 1678737869 -0400	commit: react selections
+d687392ef909d468028857374872c17e771e8a84 a4942f753b40b927f8212010acc4ca33cea1f273 Ilia Zlobin <iliazlobin91@gmail.com> 1678738336 -0400	commit: fix navigation, full react
+a4942f753b40b927f8212010acc4ca33cea1f273 4070689a24fa4272dc1aefd08bcec0abf4e4d5fa Ilia Zlobin <iliazlobin91@gmail.com> 1678738406 -0400	commit: remove debug logs
+4070689a24fa4272dc1aefd08bcec0abf4e4d5fa 630d508668d526676f0afa33592cf264a0aaba24 Ilia Zlobin <iliazlobin91@gmail.com> 1678738618 -0400	commit: refactor event names
+630d508668d526676f0afa33592cf264a0aaba24 0a7581b3f8ba10fec956cb1308daf3e7b44ff1b3 Ilia Zlobin <iliazlobin91@gmail.com> 1678740864 -0400	commit: visualize playhead and propagate navigatePosition
+0a7581b3f8ba10fec956cb1308daf3e7b44ff1b3 479411af56c6bc7a35419384fc6622f498dbe53d Ilia Zlobin <iliazlobin91@gmail.com> 1678741853 -0400	commit: complete navigation
+479411af56c6bc7a35419384fc6622f498dbe53d badd6503a54c040a47b025cf78fece9b86252b84 Ilia Zlobin <iliazlobin91@gmail.com> 1678745340 -0400	commit: fix navigation
+badd6503a54c040a47b025cf78fece9b86252b84 70cb95f98b790145f97b856e2a3b9e467a43333e Ilia Zlobin <iliazlobin91@gmail.com> 1678747843 -0400	commit: handle pause/stop, hide playback position
+70cb95f98b790145f97b856e2a3b9e467a43333e 5a738c58bd3d85442bba197d6b1213beb043341e Ilia Zlobin <iliazlobin91@gmail.com> 1678750617 -0400	commit: speed slider draft impl
+5a738c58bd3d85442bba197d6b1213beb043341e d69e7b87591dc31608abf6783c2fe43771cf54c2 Ilia Zlobin <iliazlobin91@gmail.com> 1678751034 -0400	commit: correct navigation with selection
+d69e7b87591dc31608abf6783c2fe43771cf54c2 2f34347a255379ce41a466c9868c2931dd3cf916 Ilia Zlobin <iliazlobin91@gmail.com> 1678752975 -0400	commit: remove debug logs
+2f34347a255379ce41a466c9868c2931dd3cf916 412b60d75a49cdbb150833afe7ba87416899bcba Ilia Zlobin <iliazlobin91@gmail.com> 1678757215 -0400	commit: clean refactor: navigation, rate
+412b60d75a49cdbb150833afe7ba87416899bcba 5bbcb5f7297bae06e471a604e873034eb490b990 Ilia Zlobin <iliazlobin91@gmail.com> 1678764558 -0400	commit: implement player with notejs
+5bbcb5f7297bae06e471a604e873034eb490b990 74718a7d37edbe08a31ec1a51b125de0f8e59350 Ilia Zlobin <iliazlobin91@gmail.com> 1678765170 -0400	commit: refactored variables
+74718a7d37edbe08a31ec1a51b125de0f8e59350 3e8f32b12119de015cc83473511cb4e08daf06c7 Ilia Zlobin <iliazlobin91@gmail.com> 1678768048 -0400	commit: logarithmic volume set
+3e8f32b12119de015cc83473511cb4e08daf06c7 ff4169365dac495953cbc2e278ddc7f597b732e8 Ilia Zlobin <iliazlobin91@gmail.com> 1678770554 -0400	commit: reference, default duration, reactive relayout
+ff4169365dac495953cbc2e278ddc7f597b732e8 4a6a4caadaf46873a65bde1a71b9fe1c83c77138 Ilia Zlobin <iliazlobin91@gmail.com> 1678771374 -0400	commit: refactoring in a reactive style
+4a6a4caadaf46873a65bde1a71b9fe1c83c77138 3691aaafd5c317299991ffc67a285004264ddb20 Ilia Zlobin <iliazlobin91@gmail.com> 1678774519 -0400	commit: functional ios chrome version, https enabled
+3691aaafd5c317299991ffc67a285004264ddb20 bd6ebc7a4fcb7c8cdb659d4c75ccfe52109c107e Ilia Zlobin <iliazlobin91@gmail.com> 1679263933 -0400	commit: s3 download tested, draw control ui
+bd6ebc7a4fcb7c8cdb659d4c75ccfe52109c107e 72f25580d445bfcdd966de32d3495f65c7da2319 Ilia Zlobin <iliazlobin91@gmail.com> 1679287875 -0400	commit: navigation module
+72f25580d445bfcdd966de32d3495f65c7da2319 ed760bfec80ad809e59804c1d3f92095d2557d10 Ilia Zlobin <iliazlobin91@gmail.com> 1679292562 -0400	commit: functional navigation
+ed760bfec80ad809e59804c1d3f92095d2557d10 b735ec29944336c8b3bf1e2eaec007819845c51a Ilia Zlobin <iliazlobin91@gmail.com> 1679374265 -0400	commit: fix layouts
+b735ec29944336c8b3bf1e2eaec007819845c51a e4e9eff1d59296901b0518797c1e303e4afd7e7f Ilia Zlobin <iliazlobin91@gmail.com> 1679379612 -0400	commit: recorder
+e4e9eff1d59296901b0518797c1e303e4afd7e7f 806cfb0ab9a263d9834ee4a617411023b5f73ee1 Ilia Zlobin <iliazlobin91@gmail.com> 1679382404 -0400	commit: playback control
+806cfb0ab9a263d9834ee4a617411023b5f73ee1 503997a503c124063c9d07e848669ee899de36d1 Ilia Zlobin <iliazlobin91@gmail.com> 1679391758 -0400	commit: audio charts, styling, navigation fixes
+503997a503c124063c9d07e848669ee899de36d1 6fef79a0c9fbde7f3616bb895f6bd896c748e0ea Ilia Zlobin <iliazlobin91@gmail.com> 1679454857 -0400	commit: perfect navigation, draw playhead, improve playhead performance
+6fef79a0c9fbde7f3616bb895f6bd896c748e0ea 133f11664b891687b30ac97dd62534101ce94df4 Ilia Zlobin <iliazlobin91@gmail.com> 1679455712 -0400	commit: fix pause function
+133f11664b891687b30ac97dd62534101ce94df4 0f7adec86b89e51ccb7d91877423a84be90c0b73 Ilia Zlobin <iliazlobin91@gmail.com> 1679462460 -0400	commit: connected playbacks: volume, rate; implement balance level
+0f7adec86b89e51ccb7d91877423a84be90c0b73 d484b2c2007163b1f9511eb8d14a4ba3fedacc03 Ilia Zlobin <iliazlobin91@gmail.com> 1679463684 -0400	commit: untie playback rate but keep it in sync behind the scene
+d484b2c2007163b1f9511eb8d14a4ba3fedacc03 cfb07b3384f6402ca213ef87dc560dc1f3345269 Ilia Zlobin <iliazlobin91@gmail.com> 1679467215 -0400	commit: sync play, offset plotting from source
+cfb07b3384f6402ca213ef87dc560dc1f3345269 d04db873f79b2a591eab014c2a20377aa3b07b0e Ilia Zlobin <iliazlobin91@gmail.com> 1679468698 -0400	commit: select region
+d04db873f79b2a591eab014c2a20377aa3b07b0e b57ef1b8dceac4d6c26cfa2bce6994404e6c119e Ilia Zlobin <iliazlobin91@gmail.com> 1679472782 -0400	commit: both play offset draft, working restarts
+b57ef1b8dceac4d6c26cfa2bce6994404e6c119e b57ef1b8dceac4d6c26cfa2bce6994404e6c119e Ilia Zlobin <iliazlobin91@gmail.com> 1681423051 -0400	checkout: moving from master to playback-view
+b57ef1b8dceac4d6c26cfa2bce6994404e6c119e 466c239f76fcfe22aa8cd2634d3e5a81159e9755 Ilia Zlobin <iliazlobin91@gmail.com> 1681423060 -0400	commit: recompose elements
+466c239f76fcfe22aa8cd2634d3e5a81159e9755 b57ef1b8dceac4d6c26cfa2bce6994404e6c119e Ilia Zlobin <iliazlobin91@gmail.com> 1681423063 -0400	checkout: moving from playback-view to master
+b57ef1b8dceac4d6c26cfa2bce6994404e6c119e 466c239f76fcfe22aa8cd2634d3e5a81159e9755 Ilia Zlobin <iliazlobin91@gmail.com> 1681423134 -0400	checkout: moving from master to playback-view
+466c239f76fcfe22aa8cd2634d3e5a81159e9755 e97636dda8130915fd4f5ee24a71dfcd4842b8bf Ilia Zlobin <iliazlobin91@gmail.com> 1681424539 -0400	commit: additional flags
+e97636dda8130915fd4f5ee24a71dfcd4842b8bf b57ef1b8dceac4d6c26cfa2bce6994404e6c119e Ilia Zlobin <iliazlobin91@gmail.com> 1681424541 -0400	checkout: moving from playback-view to master
+b57ef1b8dceac4d6c26cfa2bce6994404e6c119e e97636dda8130915fd4f5ee24a71dfcd4842b8bf Ilia Zlobin <iliazlobin91@gmail.com> 1681424582 -0400	checkout: moving from master to playback-view
+e97636dda8130915fd4f5ee24a71dfcd4842b8bf f33400bf83fcfb751eabcd41358a7cd262bf7287 Ilia Zlobin <iliazlobin91@gmail.com> 1681426925 -0400	commit: repeatable restarts
+f33400bf83fcfb751eabcd41358a7cd262bf7287 f465e5f6f2fce22742582f062348ed9590f7b5e4 Ilia Zlobin <iliazlobin91@gmail.com> 1681444367 -0400	commit: youtube downloader with a range slider
+f465e5f6f2fce22742582f062348ed9590f7b5e4 af52cdf5670a3250edda7f42e019b88eb791ec8e Ilia Zlobin <iliazlobin91@gmail.com> 1681449949 -0400	commit: nav shapes
+af52cdf5670a3250edda7f42e019b88eb791ec8e fcb2cec4dde09d786677e81247cc44b91803b097 Ilia Zlobin <iliazlobin91@gmail.com> 1681451655 -0400	commit: play/stop, playhead syncs
+fcb2cec4dde09d786677e81247cc44b91803b097 6fa7b5d23f3ff2b6a9b90c329442e0da806818aa Ilia Zlobin <iliazlobin91@gmail.com> 1681454183 -0400	commit: volume, playback rate, relayout duration
+6fa7b5d23f3ff2b6a9b90c329442e0da806818aa a35607edee9f72b20833357f3fdb8bc18e428a5b Ilia Zlobin <iliazlobin91@gmail.com> 1681508092 -0400	commit: youtube downloads with offset and duration, comply with ts linting and compilation rules
+a35607edee9f72b20833357f3fdb8bc18e428a5b 56039c32e0da221844408af5f42eb71480bcb011 Ilia Zlobin <iliazlobin91@gmail.com> 1681510247 -0400	commit: fix navigation shapes
+56039c32e0da221844408af5f42eb71480bcb011 b57ef1b8dceac4d6c26cfa2bce6994404e6c119e Ilia Zlobin <iliazlobin91@gmail.com> 1681510251 -0400	checkout: moving from playback-view to master
+b57ef1b8dceac4d6c26cfa2bce6994404e6c119e 56039c32e0da221844408af5f42eb71480bcb011 Ilia Zlobin <iliazlobin91@gmail.com> 1681510255 -0400	merge playback-view: Fast-forward
+56039c32e0da221844408af5f42eb71480bcb011 80ef4c373e504d5e3a1c5feb29325a57b642f520 Ilia Zlobin <iliazlobin91@gmail.com> 1681510751 -0400	commit: disable scene navigation
+80ef4c373e504d5e3a1c5feb29325a57b642f520 7e70f6d416ea543c3726e93faa25ac7a69eeebc1 Ilia Zlobin <iliazlobin91@gmail.com> 1681511422 -0400	commit: more buttons, recording animation colors
+7e70f6d416ea543c3726e93faa25ac7a69eeebc1 0857f9ac955d8e40f92e3a1ad6e76d45fb9d635d Ilia Zlobin <iliazlobin91@gmail.com> 1681525619 -0400	commit: downloads with mediaid, offsets
+0857f9ac955d8e40f92e3a1ad6e76d45fb9d635d 2328269c35551b62ab8ee1b9410d6d7b3bf75579 Ilia Zlobin <iliazlobin91@gmail.com> 1681529522 -0400	commit: fix navigation
+2328269c35551b62ab8ee1b9410d6d7b3bf75579 548f43942e6f3c29a1e64343b340764d32cd34cf Ilia Zlobin <iliazlobin91@gmail.com> 1681531291 -0400	commit: default length 3 seconds, preserve navigation

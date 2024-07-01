@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 b57ef1b8dceac4d6c26cfa2bce6994404e6c119e Ilia Zlobin <iliazlobin91@gmail.com> 1681423051 -0400	branch: Created from HEAD
+b57ef1b8dceac4d6c26cfa2bce6994404e6c119e 466c239f76fcfe22aa8cd2634d3e5a81159e9755 Ilia Zlobin <iliazlobin91@gmail.com> 1681423060 -0400	commit: recompose elements
+466c239f76fcfe22aa8cd2634d3e5a81159e9755 e97636dda8130915fd4f5ee24a71dfcd4842b8bf Ilia Zlobin <iliazlobin91@gmail.com> 1681424539 -0400	commit: additional flags
+e97636dda8130915fd4f5ee24a71dfcd4842b8bf f33400bf83fcfb751eabcd41358a7cd262bf7287 Ilia Zlobin <iliazlobin91@gmail.com> 1681426925 -0400	commit: repeatable restarts
+f33400bf83fcfb751eabcd41358a7cd262bf7287 f465e5f6f2fce22742582f062348ed9590f7b5e4 Ilia Zlobin <iliazlobin91@gmail.com> 1681444367 -0400	commit: youtube downloader with a range slider
+f465e5f6f2fce22742582f062348ed9590f7b5e4 af52cdf5670a3250edda7f42e019b88eb791ec8e Ilia Zlobin <iliazlobin91@gmail.com> 1681449949 -0400	commit: nav shapes
+af52cdf5670a3250edda7f42e019b88eb791ec8e fcb2cec4dde09d786677e81247cc44b91803b097 Ilia Zlobin <iliazlobin91@gmail.com> 1681451655 -0400	commit: play/stop, playhead syncs
+fcb2cec4dde09d786677e81247cc44b91803b097 6fa7b5d23f3ff2b6a9b90c329442e0da806818aa Ilia Zlobin <iliazlobin91@gmail.com> 1681454183 -0400	commit: volume, playback rate, relayout duration
+6fa7b5d23f3ff2b6a9b90c329442e0da806818aa a35607edee9f72b20833357f3fdb8bc18e428a5b Ilia Zlobin <iliazlobin91@gmail.com> 1681508092 -0400	commit: youtube downloads with offset and duration, comply with ts linting and compilation rules
+a35607edee9f72b20833357f3fdb8bc18e428a5b 56039c32e0da221844408af5f42eb71480bcb011 Ilia Zlobin <iliazlobin91@gmail.com> 1681510247 -0400	commit: fix navigation shapes
