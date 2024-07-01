@@ -1,0 +1,9 @@
+.build/
+.env*
+.idea/
+**/*.out
+.serverless/
+.vscode/
+.webpack/
+dwl/
+node_modules/

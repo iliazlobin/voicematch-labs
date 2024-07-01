@@ -1,0 +1,12 @@
+.env
+*.gz
+*.wav
+*.ogg
+/__pycache__
+/dlc
+/dwl
+/github
+node_modules
+*.tsv
+*.zip
+*.bin

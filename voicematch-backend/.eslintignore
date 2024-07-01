@@ -1,0 +1,6 @@
+.serverless
+.webpack
+build
+dist
+node_modules
+plugins

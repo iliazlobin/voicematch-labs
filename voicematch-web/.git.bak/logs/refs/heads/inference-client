@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 96877d13a9c7d50b149e3fb200203381ddbd8a84 Ilia Zlobin <iliazlobin91@gmail.com> 1678416964 -0500	branch: Created from HEAD
+96877d13a9c7d50b149e3fb200203381ddbd8a84 8a7d682b7cd8db9de723e5069876b9e70785c7a9 Ilia Zlobin <iliazlobin91@gmail.com> 1678416989 -0500	commit: Create service file
+8a7d682b7cd8db9de723e5069876b9e70785c7a9 3781132ea02add2727fc450d5d4a0b8ce1330221 Ilia Zlobin <iliazlobin91@gmail.com> 1678433244 -0500	commit: properly functioning audio player through web audio api
+3781132ea02add2727fc450d5d4a0b8ce1330221 648720a07c722e160e3e5554dc34f02a07d8965c Ilia Zlobin <iliazlobin91@gmail.com> 1678435818 -0500	commit: clean up audio player control
+648720a07c722e160e3e5554dc34f02a07d8965c 5197114d3d5031f87edfb595ec5d7b38f5438620 Ilia Zlobin <iliazlobin91@gmail.com> 1678510072 -0500	commit: request words predictions and plot it out
+5197114d3d5031f87edfb595ec5d7b38f5438620 e35d20f8ee1f69178db78689956b1b532790f90f Ilia Zlobin <iliazlobin91@gmail.com> 1678648130 -0400	commit: display phonemes on a chart leveled by pitch
+e35d20f8ee1f69178db78689956b1b532790f90f b714a3baf220aed272fe4a90b5d216be792d242f Ilia Zlobin <iliazlobin91@gmail.com> 1678731525 -0400	commit: sync navigation

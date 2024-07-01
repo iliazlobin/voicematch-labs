@@ -1,0 +1,30 @@
+{
+    "title": "PlaywrightCrawler Template",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "startUrls": {
+            "title": "Start URLs",
+            "type": "array",
+            "description": "URLs to start with.",
+            "editor": "requestListSources",
+            "prefill": [
+                {
+                    "url": "https://www.meetup.com/find?source=EVENTS&location=us--ny--New%20York"
+                }
+            ]
+        },
+        "limit": {
+            "title": "Events Limit",
+            "type": "integer",
+            "description": "Maximum number of events to be scrapped.",
+            "default": 100
+        },
+        "timeout": {
+            "title": "Scrolling Timeout",
+            "type": "integer",
+            "description": "Maximum scrolling time",
+            "default": 30
+        }
+    }
+}

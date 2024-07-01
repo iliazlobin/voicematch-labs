@@ -1,0 +1,14 @@
+{
+  "name": "vuetify-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "worklet-loader": "^2.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+__pycache__/
+_cache/
+*.bin
+*.pb
+*.tar.gz
+**/variables.data*
+build/

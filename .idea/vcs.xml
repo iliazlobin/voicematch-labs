@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/dlc/amazon-sagemaker-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dlc/deep-learning-containers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dlc/djl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dlc/hugging-face-notebooks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dlc/hugging-face_custom_inference_script/all-MiniLM-L6-v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dlc/pytorch-framework-example-hugging-face/code/all-MiniLM-L6-v2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dlc/pytorch-serve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dlc/sagemaker-pytorch-inference-toolkit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/dive" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/sagemaker-tensorflow-serving-container" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/serving" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/tensorflow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/github/youtube-dl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/voicematch-models" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/voicematch-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/my-react-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/opus.js-sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/vue-audio-recorder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/vue-audioworklet-build" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/vue-audioworklet-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/vue-web-workers-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/vue3-plotly" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/waveform-data.js" vcs="Git" />
+  </component>
+</project>
