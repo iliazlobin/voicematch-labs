@@ -1,0 +1,24 @@
+youtubeInfo:
+  handler: src/handler/youtubeInfo.handler
+  memorySize: 128
+  timeout: 300
+  events:
+    - httpApi:
+        method: GET
+        path: /youtube/info
+youtubeDownload:
+  handler: src/handler/youtubeDownload.handler
+  memorySize: 128
+  timeout: 300
+  events:
+    - httpApi:
+        method: GET
+        path: /youtube/download
+audioProcess:
+  handler: src/handler/audioProcess.handler
+  memorySize: 128
+  timeout: 300
+  events:
+    - httpApi:
+        method: GET
+        path: /audio/process

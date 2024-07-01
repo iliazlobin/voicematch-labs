@@ -1,0 +1,58 @@
+service: voicematch-backend
+frameworkVersion: "3"
+useDotenv: true
+provider:
+  name: aws
+  runtime: nodejs18.x
+#  managedPolicies:
+#    - "arn:aws:iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy"
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource:
+        - "Fn::GetAtt": [RecentActivityTable, Arn]
+#  environment:
+#    NODE_OPTIONS: '--enable-source-maps'
+custom:
+  dotenv:
+    exclude:
+      - AWS_REGION
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_SESSION_TOKEN
+      - AWS_PROFILE
+      - NODE_ENV
+  lambdaInsights:
+    defaultLambdaInsights: true
+    attachPolicy: false
+    lambdaInsightsVersion: 14
+package:
+  individually: true
+  excludeDevDependencies: true
+  patterns:
+    - "!.git/**"
+    - "!.gitignore"
+    - "!.serverless/**"
+    - "!.serverless_plugins/**"
+    - "!.build/**"
+    - "!.idea/**"
+    - "!.aws-sam/**"
+    - "!node_modules/**"
+    - "!sls/**"
+    - "!README.md"
+plugins:
+  - serverless-bundle
+  - serverless-offline
+  - serverless-dotenv-plugin
+  - serverless-plugin-lambda-insights
+functions:
+  - ${file(./sls/functions.yml)}
+resources:
+  - ${file(./sls/resources.yml)}

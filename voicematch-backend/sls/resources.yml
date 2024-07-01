@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: DynamoDB tables for ${self:service}-${sls:stage}
+
+Resources:
+  RecentActivityTable:
+    Type: AWS::DynamoDB::Table
+    # DeletionPolicy: Snapshot
+    UpdateReplacePolicy: Delete
+    Properties:
+      TableName: ${self:service}-${sls:stage}-recentActivity-table
+      KeySchema:
+        - AttributeName: channel
+          KeyType: HASH
+        - AttributeName: thread_ts
+          KeyType: RANGE
+      AttributeDefinitions:
+        - AttributeName: channel
+          AttributeType: S
+        - AttributeName: thread_ts
+          AttributeType: S
+      BillingMode: PROVISIONED
+      ProvisionedThroughput:
+        ReadCapacityUnits: 2
+        WriteCapacityUnits: 2
+      TimeToLiveSpecification:
+        AttributeName: expires
+        Enabled: true

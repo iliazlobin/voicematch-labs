@@ -1,0 +1,26 @@
+networks:
+  sagemaker-local:
+    name: sagemaker-local
+services:
+  algo-1-s9wem:
+    command: serve
+    container_name: 5sxdrhfpch-algo-1-s9wem
+    environment:
+    - AWS_ACCESS_KEY_ID=___
+    - AWS_SECRET_ACCESS_KEY=___
+    - SAGEMAKER_PROGRAM=inference.py
+    - SAGEMAKER_SUBMIT_DIRECTORY=/opt/ml/model/code
+    - SAGEMAKER_CONTAINER_LOG_LEVEL=20
+    - SAGEMAKER_REGION=us-east-1
+    image: 763104351884.dkr.ecr.us-east-1.amazonaws.com/pytorch-inference:1.13.1-cpu-py39-ubuntu20.04-sagemaker
+    networks:
+      sagemaker-local:
+        aliases:
+        - algo-1-s9wem
+    ports:
+    - 8080:8080
+    stdin_open: true
+    tty: true
+    volumes:
+    - /tmp/tmpovh_2uiz:/opt/ml/model
+version: '2.3'

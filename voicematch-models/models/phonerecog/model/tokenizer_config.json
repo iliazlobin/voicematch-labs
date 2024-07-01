@@ -1,0 +1,18 @@
+{
+  "bos_token": "<s>",
+  "do_lower_case": false,
+  "do_phonemize": true,
+  "eos_token": "</s>",
+  "model_max_length": 9223372036854775807,
+  "name_or_path": "facebook/wav2vec2-lv-60-espeak-cv-ft",
+  "pad_token": "<pad>",
+  "phone_delimiter_token": " ",
+  "phonemizer_backend": "espeak",
+  "phonemizer_lang": "en-us",
+  "processor_class": "Wav2Vec2Processor",
+  "special_tokens_map_file": "./special_tokens_map.json",
+  "tokenizer_class": "Wav2Vec2PhonemeCTCTokenizer",
+  "tokenizer_file": null,
+  "unk_token": "<unk>",
+  "word_delimiter_token": null
+}

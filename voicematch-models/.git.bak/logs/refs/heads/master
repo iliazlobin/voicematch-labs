@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 5a20dc5dad20814e1db70e33c8ba1aec668b5f51 Ilia Zlobin <iliazlobin91@gmail.com> 1678416509 -0500	commit (initial): Initial commit
+5a20dc5dad20814e1db70e33c8ba1aec668b5f51 0cbe6b38131c74eee215eca9e51a0b492a76e626 Ilia Zlobin <iliazlobin91@gmail.com> 1678416713 -0500	commit (amend): Initial commit
+0cbe6b38131c74eee215eca9e51a0b492a76e626 d65bd693d9b8f3fa662f464c203bbc7a13ffca50 Ilia Zlobin <iliazlobin91@gmail.com> 1678559755 -0500	commit: add phonerecog model, refactor notebookes, inference code
+d65bd693d9b8f3fa662f464c203bbc7a13ffca50 e1874baff31f818ac54503306155bd35862fa361 Ilia Zlobin <iliazlobin91@gmail.com> 1678581109 -0500	commit: implement pitcheval model for inference from notebook with inference.py
+e1874baff31f818ac54503306155bd35862fa361 52ce67e3bde3afca0181d1a9cf6a4381fedcab28 Ilia Zlobin <iliazlobin91@gmail.com> 1678642668 -0400	commit: pitcheval serving container with custom pre/post processing
+52ce67e3bde3afca0181d1a9cf6a4381fedcab28 d8930da15e53636fc4bc1fd08b1693c71d2a58d2 Ilia Zlobin <iliazlobin91@gmail.com> 1679374212 -0400	commit: tune resources, memory limits
