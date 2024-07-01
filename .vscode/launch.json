@@ -1,0 +1,102 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // {
+    //   "name": "vue-project",
+    //   "request": "launch",
+    //   "runtimeArgs": [
+    //     "run",
+    //     "dev"
+    //   ],
+    //   "runtimeExecutable": "npm",
+    //   "type": "node",
+    //   "cwd": "/root/ws/ml/vue/vue-project"
+    // },
+    // {
+    //   "name": "vuetify-project",
+    //   "request": "launch",
+    //   "runtimeArgs": [
+    //     "run",
+    //     "dev"
+    //   ],
+    //   "runtimeExecutable": "npm",
+    //   "type": "node",
+    //   "cwd": "/root/ws/ml/vue/vuetify-project",
+    // },
+    // {
+    //   "name": "vuetify-project-debug",
+    //   "request": "launch",
+    //   "type": "chrome",
+    //   "url": "http://localhost:8080",
+    //   // "cwd": "/root/ws/ml/vue/vuetify-project",
+    //   "webRoot": "${workspaceFolder}/src",
+    //   // "sourceMapPathOverrides": {
+    //   //     "webpack:///./src/*": "${webRoot}/*",
+    //   //     "webpack:///src/*": "${webRoot}/*"
+    //   // }
+    // },
+    {
+      "name": "voicematch-web-attach",
+      "request": "attach",
+      "type": "chrome",
+      "address": "192.168.1.16",
+      "port": 9222,
+      "urlFilter": "http://localhost:9080/",
+      // "url": "http://localhost:9080",
+      // "cwd": "/root/ws/ml/vue/vuetify-project",
+      "webRoot": "${workspaceFolder}/src",
+      // "stopOnEntry": true,
+      // "sourceMapPathOverrides": {
+      //     "webpack:///./src/*": "${webRoot}/*",
+      //     "webpack:///src/*": "${webRoot}/*"
+      // }
+    },
+    {
+      "name": "voicematch-backend debug",
+      "type": "node",
+      "request": "launch",
+      "cwd": "/root/ws/ml/voicematch-backend",
+      "runtimeExecutable": "ts-node",
+      "runtimeArgs": [
+          "node_modules/.bin/sls",
+          "offline",
+      ],
+      // "env": {
+      //   "NODE_ENV": "development"
+      // },
+      // "outFiles": [
+      //   "/root/ws/ml/voicematch-backend/handler.js"
+      // ],
+      // "port": 9229,
+      "sourceMaps": true,
+    },
+    {
+      "name": "ts-node",
+      "type": "node",
+      "request": "launch",
+      "args": ["${file}"],
+      "runtimeExecutable": "ts-node",
+      "runtimeArgs": [
+        "--esm",
+        "-r",
+        "tsconfig-paths/register",
+      ],
+      "cwd": "/home/izlobin/ws/voicematch/voicematch-backend",
+      "internalConsoleOptions": "openOnSessionStart"
+    },
+    // {
+    //   "name": "vue3-plotly-demo",
+    //   "request": "launch",
+    //   "runtimeArgs": [
+    //     "run",
+    //     "dev"
+    //   ],
+    //   "runtimeExecutable": "npm",
+    //   "type": "node",
+    //   "cwd": "/root/ws/ml/vue/vue3-plotly/demo"
+    // }
+  ]
+}
